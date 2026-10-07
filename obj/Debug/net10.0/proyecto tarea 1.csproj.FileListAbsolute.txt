@@ -1,0 +1,35 @@
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\appsettings.json
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\proyecto tarea 1.staticwebassets.endpoints.json
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\proyecto tarea 1.exe
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\proyecto tarea 1.deps.json
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\proyecto tarea 1.runtimeconfig.json
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\proyecto tarea 1.dll
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\proyecto tarea 1.pdb
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\esten\source\repos\Models\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.csproj.AssemblyReference.cache
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.AssemblyInfoInputs.cache
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.AssemblyInfo.cs
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.csproj.CoreCompileInputs.cache
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.sourcelink.json
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\scopedcss\bundle\proyecto tarea 1.styles.css
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto.69DA227A.Up2Date
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.dll
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\refint\proyecto tarea 1.dll
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.pdb
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\proyecto tarea 1.genruntimeconfig.cache
+C:\Users\esten\source\repos\Models\obj\Debug\net10.0\ref\proyecto tarea 1.dll
