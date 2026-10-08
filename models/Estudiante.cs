@@ -1,12 +1,9 @@
-﻿namespace proyecto_tarea_1.Controllers
+﻿namespace SistemaPrestamosLibros.Models
 {
-
-    public class Estudiante
+    public class libro
     {
         public int Id { get; set; }
-        public string Matricula { get; set; }
-        public string Nombre { get; set; }
+        public string Titulo { get; set; }
+        public string Autor { get; set; }
+        public bool Disponible { get; set; } = true;
     }
-    g;
-}
-

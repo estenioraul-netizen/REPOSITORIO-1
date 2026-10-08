@@ -1,6 +1,12 @@
-﻿namespace proyecto_tarea_1.Controllers
+﻿namespace SistemaPrestamosLibros.Models
 {
-    public class Prestamo
+    public class Estudiante
     {
+        public int Id { get; set; }
+        public int LibvroId { get; set; }
+        public int EstudianteId { get; set; }
+        public DateTime FechaPrestamo { get; set; } = DateTime.Now;
+        public DateTime Fechalimite { get; set; } = DateTime.Now.AddDays(7);
+
     }
 }

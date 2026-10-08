@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("proyecto tarea 1")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54925a80d5ef7df3b94ab8b7350ee990f56ecfd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3ce6cb2c96ef8b04e02a33c5a3a62d6cb384a33")]
 [assembly: System.Reflection.AssemblyProductAttribute("proyecto tarea 1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proyecto tarea 1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

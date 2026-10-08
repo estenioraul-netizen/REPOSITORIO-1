@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esten\\source\\repos\\Models\\proyecto tarea 1.csproj",
+      "projectUniqueName": "C:\\Users\\esten\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\Documentos\\GitHub\\REPOSITORIO-1\\proyecto tarea 1.csproj",
       "projectName": "proyecto tarea 1",
-      "projectPath": "C:\\Users\\esten\\source\\repos\\Models\\proyecto tarea 1.csproj",
+      "projectPath": "C:\\Users\\esten\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\Documentos\\GitHub\\REPOSITORIO-1\\proyecto tarea 1.csproj",
       "packagesPath": "C:\\Users\\esten\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esten\\source\\repos\\Models\\obj\\",
+      "outputPath": "C:\\Users\\esten\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\Documentos\\GitHub\\REPOSITORIO-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
