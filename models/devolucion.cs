@@ -1,6 +1,10 @@
-﻿namespace proyecto_tarea_1.Controllers
+﻿namespace SistemaPrestamosLibros.Models
 {
-    public class devolucion
+    public class Devolucion
     {
+        public int Id { get; set; }
+        public int PrestamoId { get; set; }
+        public DateTime FechaDevolucionReal { get; set; } = DateTime.Now;
+        public decimal MultaMora { get; set; }
     }
 }
