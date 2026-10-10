@@ -1,4 +1,7 @@
 <Solution>
   <Folder Name="/Solution Items/" />
+  <Folder Name="/Solution Items/Data/">
+    <File Path="AppDbContext.cs" />
+  </Folder>
   <Project Path="proyecto tarea 1.csproj" />
 </Solution>
