@@ -15,10 +15,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.3.0" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="9.0.21" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\SistemaPrestamosLibros.Domain\SistemaPrestamosLibros.Domain.csproj" />
+    <ProjectReference Include="..\SistemaPrestamosLibros.Infrastructure\SistemaPrestamosLibros.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

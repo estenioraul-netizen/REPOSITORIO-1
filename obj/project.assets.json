@@ -41,7 +41,7 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Humanizer.dll": {
             "related": ".xml"
           }
         },
@@ -89,7 +89,7 @@
       "Microsoft.Build.Framework/18.0.2": {
         "type": "package",
         "compile": {
-          "ref/net10.0/_._": {
+          "ref/net10.0/Microsoft.Build.Framework.dll": {
             "related": ".xml"
           }
         },
@@ -112,7 +112,7 @@
           "Microsoft.CodeAnalysis.Analyzers": "3.11.0"
         },
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/Microsoft.CodeAnalysis.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -170,7 +170,7 @@
           "Microsoft.CodeAnalysis.Common": "[5.0.0]"
         },
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/Microsoft.CodeAnalysis.CSharp.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -232,7 +232,7 @@
           "System.Composition": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -292,7 +292,7 @@
           "System.Composition": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/Microsoft.CodeAnalysis.Workspaces.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -355,7 +355,10 @@
           "System.Composition": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/_._": {}
+          "lib/net9.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll": {},
+          "lib/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
           "lib/net9.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll": {},
@@ -556,7 +559,7 @@
           "Newtonsoft.Json": "13.0.4"
         },
         "compile": {
-          "lib/net10.0/_._": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Design.dll": {
             "related": ".xml"
           }
         },
@@ -628,7 +631,7 @@
       "Microsoft.Extensions.DependencyModel/10.0.12": {
         "type": "package",
         "compile": {
-          "lib/net10.0/_._": {
+          "lib/net10.0/Microsoft.Extensions.DependencyModel.dll": {
             "related": ".xml"
           }
         },
@@ -852,7 +855,7 @@
       "Microsoft.VisualStudio.SolutionPersistence/1.0.52": {
         "type": "package",
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net8.0/Microsoft.VisualStudio.SolutionPersistence.dll": {
             "related": ".xml"
           }
         },
@@ -868,7 +871,7 @@
           "System.CodeDom": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/net6.0/Mono.TextTemplating.dll": {}
         },
         "runtime": {
           "lib/net6.0/Mono.TextTemplating.dll": {}
@@ -880,7 +883,7 @@
       "Newtonsoft.Json/13.0.4": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
@@ -975,7 +978,7 @@
       "System.CodeDom/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.CodeDom.dll": {
             "related": ".xml"
           }
         },
@@ -1010,7 +1013,7 @@
       "System.Composition.AttributedModel/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/System.Composition.AttributedModel.dll": {
             "related": ".xml"
           }
         },
@@ -1029,7 +1032,7 @@
           "System.Composition.AttributedModel": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/System.Composition.Convention.dll": {
             "related": ".xml"
           }
         },
@@ -1048,7 +1051,7 @@
           "System.Composition.Runtime": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/System.Composition.Hosting.dll": {
             "related": ".xml"
           }
         },
@@ -1064,7 +1067,7 @@
       "System.Composition.Runtime/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/System.Composition.Runtime.dll": {
             "related": ".xml"
           }
         },
@@ -1085,7 +1088,7 @@
           "System.Composition.Runtime": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/_._": {
+          "lib/net9.0/System.Composition.TypedParts.dll": {
             "related": ".xml"
           }
         },
@@ -1150,7 +1153,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.Security.Cryptography.Pkcs/9.0.11": {
+      "System.Security.Cryptography.Pkcs/9.0.21": {
         "type": "package",
         "compile": {
           "lib/net9.0/System.Security.Cryptography.Pkcs.dll": {
@@ -1186,6 +1189,34 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "SistemaPrestamosLibros.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/SistemaPrestamosLibros.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaPrestamosLibros.Domain.dll": {}
+        }
+      },
+      "SistemaPrestamosLibros.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.12",
+          "Microsoft.EntityFrameworkCore.Design": "10.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.12",
+          "Microsoft.EntityFrameworkCore.Tools": "10.0.12",
+          "SistemaPrestamosLibros.Domain": "1.0.0",
+          "System.Security.Cryptography.Pkcs": "9.0.21"
+        },
+        "compile": {
+          "bin/placeholder/SistemaPrestamosLibros.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaPrestamosLibros.Infrastructure.dll": {}
         }
       }
     }
@@ -3554,10 +3585,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.Pkcs/9.0.11": {
-      "sha512": "YS2YqtN6fFjlTDIQI+ucjbbrEvwMn796r+VLTQRr/5Oy6g+i+m7nIou83KnJCnAcKna2I+5eVJRks6SoHSpetQ==",
+    "System.Security.Cryptography.Pkcs/9.0.21": {
+      "sha512": "KD+oHoYIxwNCajjVe58WVwq9cRpum+Pg3tRveDRtkcaw6w3oc7sNBoMRtb5P5OehI3bgv1ucMpgjf8lpj5J96A==",
       "type": "package",
-      "path": "system.security.cryptography.pkcs/9.0.11",
+      "path": "system.security.cryptography.pkcs/9.0.21",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3582,7 +3613,7 @@
         "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
         "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.9.0.11.nupkg.sha512",
+        "system.security.cryptography.pkcs.9.0.21.nupkg.sha512",
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3620,6 +3651,16 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SistemaPrestamosLibros.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SistemaPrestamosLibros.Domain/SistemaPrestamosLibros.Domain.csproj",
+      "msbuildProject": "../SistemaPrestamosLibros.Domain/SistemaPrestamosLibros.Domain.csproj"
+    },
+    "SistemaPrestamosLibros.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SistemaPrestamosLibros.Infrastructure/SistemaPrestamosLibros.Infrastructure.csproj",
+      "msbuildProject": "../SistemaPrestamosLibros.Infrastructure/SistemaPrestamosLibros.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3628,7 +3669,10 @@
       "Microsoft.EntityFrameworkCore >= 10.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.12",
-      "Swashbuckle.AspNetCore >= 10.3.0"
+      "SistemaPrestamosLibros.Domain >= 1.0.0",
+      "SistemaPrestamosLibros.Infrastructure >= 1.0.0",
+      "Swashbuckle.AspNetCore >= 10.3.0",
+      "System.Security.Cryptography.Pkcs >= 9.0.21"
     ]
   },
   "packageFolders": {
@@ -3638,11 +3682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esten\\Documents\\GitHub\\REPOSITORIO-1\\proyecto tarea 1.csproj",
+      "projectUniqueName": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\proyecto tarea 1.csproj",
       "projectName": "proyecto tarea 1",
-      "projectPath": "C:\\Users\\esten\\Documents\\GitHub\\REPOSITORIO-1\\proyecto tarea 1.csproj",
+      "projectPath": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\proyecto tarea 1.csproj",
       "packagesPath": "C:\\Users\\esten\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esten\\Documents\\GitHub\\REPOSITORIO-1\\obj\\",
+      "outputPath": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3663,7 +3707,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\SistemaPrestamosLibros.Domain\\SistemaPrestamosLibros.Domain.csproj": {
+              "projectPath": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\SistemaPrestamosLibros.Domain\\SistemaPrestamosLibros.Domain.csproj"
+            },
+            "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\SistemaPrestamosLibros.Infrastructure\\SistemaPrestamosLibros.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\SistemaPrestamosLibros.Infrastructure\\SistemaPrestamosLibros.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3704,6 +3755,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[10.3.0, )"
+          },
+          "System.Security.Cryptography.Pkcs": {
+            "target": "Package",
+            "version": "[9.0.21, )"
           }
         },
         "imports": [
@@ -3725,7 +3780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

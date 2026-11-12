@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8epLZD+qcXQ=",
+  "dgSpecHash": "ssrQVyTKcH8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\esten\\Documents\\GitHub\\REPOSITORIO-1\\proyecto tarea 1.csproj",
+  "projectFilePath": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\proyecto tarea 1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esten\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\esten\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
@@ -57,7 +57,7 @@
     "C:\\Users\\esten\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.11\\system.configuration.configurationmanager.9.0.11.nupkg.sha512",
     "C:\\Users\\esten\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.7.1\\system.identitymodel.tokens.jwt.7.7.1.nupkg.sha512",
     "C:\\Users\\esten\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
-    "C:\\Users\\esten\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.11\\system.security.cryptography.pkcs.9.0.11.nupkg.sha512",
+    "C:\\Users\\esten\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.21\\system.security.cryptography.pkcs.9.0.21.nupkg.sha512",
     "C:\\Users\\esten\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.11\\system.security.cryptography.protecteddata.9.0.11.nupkg.sha512"
   ],
   "logs": []

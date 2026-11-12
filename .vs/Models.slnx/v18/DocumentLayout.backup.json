@@ -1,10 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\esten\\Documents\\GitHub\\REPOSITORIO-1\\",
+  "WorkspaceRootPath": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\documents\\github\\repositorio-1\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\controllers\\devolucionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:controllers\\devolucionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\models\\devoluciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:models\\devoluciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\models\\prestamodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:models\\prestamodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\models\\estudiantedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:models\\estudiantedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\models\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:models\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|c:\\users\\esten\\source\\repos\\estenioraul-netizen\\repositorio-1\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FB9482-161E-F9B5-A61E-0C97FDD7538B}|proyecto tarea 1.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +46,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\esten\\Documents\\GitHub\\REPOSITORIO-1\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\esten\\Documents\\GitHub\\REPOSITORIO-1\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T18:33:21.923Z",
+              "WhenOpened": "2026-11-12T00:05:09.332Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Bookmark",
@@ -41,6 +77,118 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\Controllers\\PrestamosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\Controllers\\PrestamosController.cs",
+              "RelativeToolTip": "Controllers\\PrestamosController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T15:57:22.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DevolucionesController.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\Controllers\\DevolucionesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DevolucionesController.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\Controllers\\DevolucionesController.cs",
+              "RelativeToolTip": "Controllers\\DevolucionesController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAwHUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T15:56:28.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EstudiantesController.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "Controllers\\EstudiantesController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T15:56:23.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T15:56:10.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DevolucionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\models\\DevolucionDTO.cs",
+              "RelativeDocumentMoniker": "models\\DevolucionDTO.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\models\\DevolucionDTO.cs",
+              "RelativeToolTip": "models\\DevolucionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T15:53:40.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PrestamoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\models\\PrestamoDTO.cs",
+              "RelativeDocumentMoniker": "models\\PrestamoDTO.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\models\\PrestamoDTO.cs",
+              "RelativeToolTip": "models\\PrestamoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T15:53:27.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EstudianteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\models\\EstudianteDTO.cs",
+              "RelativeDocumentMoniker": "models\\EstudianteDTO.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\models\\EstudianteDTO.cs",
+              "RelativeToolTip": "models\\EstudianteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T15:53:17.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\models\\LibroDTO.cs",
+              "RelativeDocumentMoniker": "models\\LibroDTO.cs",
+              "ToolTip": "C:\\Users\\esten\\source\\repos\\estenioraul-netizen\\REPOSITORIO-1\\models\\LibroDTO.cs",
+              "RelativeToolTip": "models\\LibroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T15:52:52.361Z",
+              "EditorCaption": ""
             }
           ]
         }

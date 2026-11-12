@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using SistemaPrestamosLibros.Data;
+﻿
+using Microsoft.AspNetCore.Mvc;
+using SistemaPrestamosLibros.Infrastructure.Repositories;
 using SistemaPrestamosLibros.Models;
+using EstudianteEntity = SistemaPrestamosLibros.Domain.Entities.Estudiante;
 
 namespace SistemaPrestamosLibros.Controllers
 {
@@ -9,47 +10,97 @@ namespace SistemaPrestamosLibros.Controllers
     [ApiController]
     public class EstudiantesController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IGenericRepository<EstudianteEntity> _repository;
 
-        // Inyectamos la base de datos en el controlador
-        public EstudiantesController(AppDbContext context)
+        public EstudiantesController(
+            IGenericRepository<EstudianteEntity> repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
         // GET: api/Estudiantes
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Estudiante>>> GetEstudiantes()
+        public async Task<ActionResult<IEnumerable<EstudianteDTO>>> GetEstudiantes()
         {
-            return await _context.Estudiantes.ToListAsync();
+            var estudiantes = await _repository.GetAllAsync();
+
+            var estudiantesDTO = estudiantes.Select(estudiante => new EstudianteDTO
+            {
+                Id = estudiante.Id,
+                Nombre = estudiante.Nombre,
+                Matricula = estudiante.Matricula
+            }).ToList();
+
+            return Ok(estudiantesDTO);
         }
 
         // GET: api/Estudiantes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Estudiante>> GetEstudiante(int id)
+        public async Task<ActionResult<EstudianteDTO>> GetEstudiante(int id)
         {
-            var estudiante = await _context.Estudiantes.FindAsync(id);
-            if (estudiante == null) return NotFound();
-            return estudiante;
+            var estudiante = await _repository.GetByIdAsync(id);
+
+            if (estudiante == null)
+                return NotFound();
+
+            var estudianteDTO = new EstudianteDTO
+            {
+                Id = estudiante.Id,
+                Nombre = estudiante.Nombre,
+                Matricula = estudiante.Matricula
+            };
+
+            return Ok(estudianteDTO);
         }
 
         // POST: api/Estudiantes
         [HttpPost]
-        public async Task<ActionResult<Estudiante>> PostEstudiante(Estudiante estudiante)
+        public async Task<ActionResult<EstudianteDTO>> PostEstudiante(
+            EstudianteDTO estudianteDTO)
         {
-            _context.Estudiantes.Add(estudiante);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetEstudiante), new { id = estudiante.Id }, estudiante);
+            var estudiante = new EstudianteEntity
+            {
+                Nombre = estudianteDTO.Nombre,
+                Matricula = estudianteDTO.Matricula
+            };
+
+            await _repository.AddAsync(estudiante);
+            await _repository.SaveChangesAsync();
+
+            var resultadoDTO = new EstudianteDTO
+            {
+                Id = estudiante.Id,
+                Nombre = estudiante.Nombre,
+                Matricula = estudiante.Matricula
+            };
+
+            return CreatedAtAction(
+                nameof(GetEstudiante),
+                new { id = estudiante.Id },
+                resultadoDTO
+            );
         }
 
         // PUT: api/Estudiantes/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutEstudiante(int id, Estudiante estudiante)
+        public async Task<IActionResult> PutEstudiante(
+            int id, EstudianteDTO estudianteDTO)
         {
-            if (id != estudiante.Id) return BadRequest();
+            if (id != estudianteDTO.Id)
+                return BadRequest();
 
-            _context.Entry(estudiante).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            var estudianteExistente =
+                await _repository.GetByIdAsync(id);
+
+            if (estudianteExistente == null)
+                return NotFound();
+
+            estudianteExistente.Nombre = estudianteDTO.Nombre;
+            estudianteExistente.Matricula = estudianteDTO.Matricula;
+
+            _repository.Update(estudianteExistente);
+            await _repository.SaveChangesAsync();
+
             return NoContent();
         }
 
@@ -57,11 +108,14 @@ namespace SistemaPrestamosLibros.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEstudiante(int id)
         {
-            var estudiante = await _context.Estudiantes.FindAsync(id);
-            if (estudiante == null) return NotFound();
+            var estudiante = await _repository.GetByIdAsync(id);
 
-            _context.Estudiantes.Remove(estudiante);
-            await _context.SaveChangesAsync();
+            if (estudiante == null)
+                return NotFound();
+
+            _repository.Delete(estudiante);
+            await _repository.SaveChangesAsync();
+
             return NoContent();
         }
     }

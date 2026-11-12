@@ -3,5 +3,7 @@
   <Folder Name="/Solution Items/Data/">
     <File Path="AppDbContext.cs" />
   </Folder>
+  <Project Path="../SistemaPrestamosLibros.Domain/SistemaPrestamosLibros.Domain.csproj" />
+  <Project Path="../SistemaPrestamosLibros.Infrastructure/SistemaPrestamosLibros.Infrastructure.csproj" />
   <Project Path="proyecto tarea 1.csproj" />
 </Solution>
