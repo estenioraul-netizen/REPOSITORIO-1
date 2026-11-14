@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/" />
+  <Folder Name="/Solution Items/Data/">
+    <File Path="AppDbContext.cs" />
+  </Folder>
+  <Project Path="../SistemaPrestamosLibros.Application/SistemaPrestamosLibros.Application.csproj" Id="e487bb46-ed6d-4922-8039-52d48924ecb7" />
+  <Project Path="../SistemaPrestamosLibros.Domain/SistemaPrestamosLibros.Domain.csproj" />
+  <Project Path="../SistemaPrestamosLibros.Infrastructure/SistemaPrestamosLibros.Infrastructure.csproj" />
+  <Project Path="Prestamos libros proyecto.csproj" />
+</Solution>
